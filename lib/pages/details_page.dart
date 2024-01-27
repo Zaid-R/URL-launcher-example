@@ -45,7 +45,7 @@ class DetailsPage extends StatelessWidget {
                       _launchURL(Uri.parse(website.link));
                     },
                     child: Text(
-                      'Link: ${website.link}',
+                      website.link,
                        overflow: TextOverflow.clip,
                       style: const TextStyle(
                         color: Colors.blue,
